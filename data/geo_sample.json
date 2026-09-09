@@ -1,0 +1,2340 @@
+{
+    "uids": [
+        "200327047",
+        "200315252",
+        "200310900",
+        "200324677",
+        "200324675",
+        "200320321",
+        "200267169",
+        "200316199",
+        "200316197",
+        "200305009"
+    ],
+    "200327047": {
+        "uid": "200327047",
+        "accession": "GSE327047",
+        "gds": "",
+        "title": "Identification and integration of LRG1-Induced differentially Expressed Gene (DEG) Hub Profiles in breast cancer cell",
+        "summary": "Breast carcinoma is a major cause of cancer-related mortality among women worldwide. Identifying novel molecular targets remains essential, particularly for aggressive triple-negative breast cancer (TNBC). Leucine-rich alpha-2-glycoprotein 1 (LRG1) has been linked to tumor progression and angiogenesis, but its molecular mechanisms in breast cancer are poorly defined. We evaluated the effects of recombinant human LRG1 (rhLRG1) on cell viability and migration in MDA-MB-231 TNBC cells and performed transcriptomic profiling followed by functional enrichment analyses using GenArise, Cytoscape, and R-based tools. RhLRG1 treatment significantly increased cell viability and migration. Transcriptomic analysis revealed activation of key oncogenic cascades, including the PI3K/AKT, MAPK, and RAS signaling pathways.",
+        "gpl": "36226",
+        "gse": "327047",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/04/09",
+        "suppfile": "TXT, XLS",
+        "samples": [
+            {
+                "accession": "GSM9647013",
+                "title": "Rh-LRG1 treatment with 100 ng/mL 2"
+            },
+            {
+                "accession": "GSM9647011",
+                "title": "Control 2"
+            },
+            {
+                "accession": "GSM9647014",
+                "title": "Rh-LRG1 treatment with 100 ng/mL 3"
+            },
+            {
+                "accession": "GSM9647012",
+                "title": "Control 3"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 4,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327047/",
+        "geo2r": "yes",
+        "bioproject": "PRJNA1449375"
+    },
+    "200315252": {
+        "uid": "200315252",
+        "accession": "GSE315252",
+        "gds": "",
+        "title": "Exosomal miRNA profiling in ER-positive metastatic breast cancer treated with CDK4/6 inhibitors",
+        "summary": "This study explores circulating exosomal microRNA expression in patients with estrogen receptor\u2013positive (ER+), HER2-negative metastatic breast cancer treated with first-line cyclin-dependent kinase 4/6 inhibitors (CDK4/6i) in combination with endocrine therapy. Plasma samples were collected at treatment initiation, and exosomes were isolated for unbiased microRNA expression profiling using microarray technology. Patients were clinically stratified according to endocrine sensitivity at baseline and progression status under CDK4/6 inhibition. The resulting dataset was generated as an exploratory discovery cohort to identify candidate exosomal microRNAs associated with treatment outcome and resistance. These data provide a resource for investigating microRNA programs in the context of CDK4/6 inhibitor response.",
+        "gpl": "21572",
+        "gse": "315252",
+        "taxon": "Homo sapiens; synthetic construct",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/03/31",
+        "suppfile": "CEL, CHP",
+        "samples": [
+            {
+                "accession": "GSM9423639",
+                "title": "HR_ER+MBC_CDK4/6i_MPC071"
+            },
+            {
+                "accession": "GSM9423636",
+                "title": "HR_ER+MBC_CDK4/6i_MPC064"
+            },
+            {
+                "accession": "GSM9423633",
+                "title": "HR_ER+MBC_CDK4/6i_MPC055"
+            },
+            {
+                "accession": "GSM9423645",
+                "title": "HR_ER+MBC_CDK4/6i_MPC087"
+            },
+            {
+                "accession": "GSM9423625",
+                "title": "HR_ER+MBC_CDK4/6i_MPC028"
+            },
+            {
+                "accession": "GSM9423642",
+                "title": "HS_ER+MBC_CDK4/6i_MPC079"
+            },
+            {
+                "accession": "GSM9423622",
+                "title": "HS_ER+MBC_CDK4/6i_MPC022"
+            },
+            {
+                "accession": "GSM9423638",
+                "title": "HS_ER+MBC_CDK4/6i_MPC069"
+            },
+            {
+                "accession": "GSM9423621",
+                "title": "HR_ER+MBC_CDK4/6i_MPC017"
+            },
+            {
+                "accession": "GSM9423644",
+                "title": "HR_ER+MBC_CDK4/6i_MPC084"
+            },
+            {
+                "accession": "GSM9423641",
+                "title": "HS_ER+MBC_CDK4/6i_MPC077"
+            },
+            {
+                "accession": "GSM9423630",
+                "title": "HS_ER+MBC_CDK4/6i_MPC047"
+            },
+            {
+                "accession": "GSM9423627",
+                "title": "HS_ER+MBC_CDK4/6i_MPC035"
+            },
+            {
+                "accession": "GSM9423624",
+                "title": "HS_ER+MBC_CDK4/6i_MPC024"
+            },
+            {
+                "accession": "GSM9423626",
+                "title": "HS_ER+MBC_CDK4/6i_MPC029"
+            },
+            {
+                "accession": "GSM9423646",
+                "title": "HS_ER+MBC_CDK4/6i_MPC095"
+            },
+            {
+                "accession": "GSM9423623",
+                "title": "HS_ER+MBC_CDK4/6i_MPC023"
+            },
+            {
+                "accession": "GSM9423629",
+                "title": "HR_ER+MBC_CDK4/6i_MPC044"
+            },
+            {
+                "accession": "GSM9423643",
+                "title": "HS_ER+MBC_CDK4/6i_MPC081"
+            },
+            {
+                "accession": "GSM9423635",
+                "title": "HR_ER+MBC_CDK4/6i_MPC058"
+            },
+            {
+                "accession": "GSM9423632",
+                "title": "HS_ER+MBC_CDK4/6i_MPC053"
+            },
+            {
+                "accession": "GSM9423628",
+                "title": "HS_ER+MBC_CDK4/6i_MPC042"
+            },
+            {
+                "accession": "GSM9423640",
+                "title": "HR_ER+MBC_CDK4/6i_MPC076"
+            },
+            {
+                "accession": "GSM9423634",
+                "title": "HR_ER+MBC_CDK4/6i_MPC056"
+            },
+            {
+                "accession": "GSM9423631",
+                "title": "HS_ER+MBC_CDK4/6i_MPC052"
+            },
+            {
+                "accession": "GSM9423637",
+                "title": "HR_ER+MBC_CDK4/6i_MPC065"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 26,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE315nnn/GSE315252/",
+        "geo2r": "yes",
+        "bioproject": "PRJNA1395502"
+    },
+    "200310900": {
+        "uid": "200310900",
+        "accession": "GSE310900",
+        "gds": "",
+        "title": "Gene expression profile of FFPE primary Her2-positive breast cancer samples from patient who were subjected to  neoadjuvant therapy",
+        "summary": "Pathological complete response (pCR) after neoadjuvant therapy is a robust surrogate marker for long-term outcomes in breast cancer. However, reliable biomarkers predicting pCR in HER2-positive breast cancer remain elusive Transcriptomic profiling to identify candidate genes associated with pCR were performed in patients with HER2-positive, hormone receptor\u2013negative breast cancer treated with neoadjuvant chemotherapy plus anti-HER2 agents",
+        "gpl": "23126",
+        "gse": "310900",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/03/23",
+        "suppfile": "CEL, CHP",
+        "samples": [
+            {
+                "accession": "GSM9311522",
+                "title": "NeoBC068"
+            },
+            {
+                "accession": "GSM9311519",
+                "title": "NeoBC063"
+            },
+            {
+                "accession": "GSM9311516",
+                "title": "NeoBC020"
+            },
+            {
+                "accession": "GSM9311513",
+                "title": "NeoBC017"
+            },
+            {
+                "accession": "GSM9311517",
+                "title": "NeoBC021"
+            },
+            {
+                "accession": "GSM9311514",
+                "title": "NeoBC018"
+            },
+            {
+                "accession": "GSM9311525",
+                "title": "NeoBC078"
+            },
+            {
+                "accession": "GSM9311523",
+                "title": "NeoBC069"
+            },
+            {
+                "accession": "GSM9311520",
+                "title": "NeoBC065"
+            },
+            {
+                "accession": "GSM9311524",
+                "title": "NeoBC071"
+            },
+            {
+                "accession": "GSM9311515",
+                "title": "NeoBC019"
+            },
+            {
+                "accession": "GSM9311521",
+                "title": "NeoBC067"
+            },
+            {
+                "accession": "GSM9311518",
+                "title": "NeoBC062"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 13,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [
+            "41790341"
+        ],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE310nnn/GSE310900/",
+        "geo2r": "no",
+        "bioproject": "PRJNA1367498"
+    },
+    "200324677": {
+        "uid": "200324677",
+        "accession": "GSE324677",
+        "gds": "",
+        "title": "Parity-conditioned Hedgehog/VDR-linked NanoString profiling of histologically normal human breast tissue",
+        "summary": "This SuperSeries is composed of the SubSeries listed below.",
+        "gpl": "27956;33436",
+        "gse": "324677",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/03/17",
+        "suppfile": "CSV, RCC, TSV, TXT, XLSX",
+        "samples": [
+            {
+                "accession": "GSM9582718",
+                "title": "ORG-0062_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582801",
+                "title": "ORG-0090_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582764",
+                "title": "ORG-0147_R4_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582781",
+                "title": "ORG-0046_IO360_20220609 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582698",
+                "title": "ORG-0011_BC360_20210915 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582744",
+                "title": "ORG-0115_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582827",
+                "title": "ORG-0131_L2_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582761",
+                "title": "ORG-0141_R4_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582844",
+                "title": "ORG-0159_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582778",
+                "title": "ORG-0022_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582741",
+                "title": "ORG-0110_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582824",
+                "title": "ORG-0125_L_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582841",
+                "title": "ORG-0151_R1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582804",
+                "title": "ORG-0093_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582758",
+                "title": "ORG-0136_R2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582721",
+                "title": "ORG-0067_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582738",
+                "title": "ORG-0104_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582701",
+                "title": "ORG-0017_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582784",
+                "title": "ORG-0048_IO360_20220614 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582821",
+                "title": "ORG-0120_L_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582727",
+                "title": "ORG-0090_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582810",
+                "title": "ORG-0102_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582790",
+                "title": "ORG-0058_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582707",
+                "title": "ORG-0046_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582807",
+                "title": "ORG-0098_R_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582770",
+                "title": "ORG-0159_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582724",
+                "title": "ORG-0073_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582833",
+                "title": "ORG-0138_R1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582704",
+                "title": "ORG-0022_BC360_20210921 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582787",
+                "title": "ORG-0051_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582730",
+                "title": "ORG-0093_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582813",
+                "title": "ORG-0105_R1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582767",
+                "title": "ORG-0151_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582710",
+                "title": "ORG-0048_BC360_20220614 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582793",
+                "title": "ORG-0063_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582750",
+                "title": "ORG-0125_L_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582839",
+                "title": "ORG-0148_R1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582830",
+                "title": "ORG-0135_L_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582747",
+                "title": "ORG-0120_L_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582819",
+                "title": "ORG-0118_L1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582773",
+                "title": "ORG-0012_IO360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582736",
+                "title": "ORG-0102_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582716",
+                "title": "ORG-0058_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582799",
+                "title": "ORG-0081_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582836",
+                "title": "ORG-0143_L2_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582756",
+                "title": "ORG-0135_L_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582733",
+                "title": "ORG-0098_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582816",
+                "title": "ORG-0111_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582753",
+                "title": "ORG-0131_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582713",
+                "title": "ORG-0051_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582822",
+                "title": "ORG-0121_R4_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582796",
+                "title": "ORG-0068_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582759",
+                "title": "ORG-0138_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582842",
+                "title": "ORG-0152_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582779",
+                "title": "ORG-0027_L_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582745",
+                "title": "ORG-0118_L1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582845",
+                "title": "ORG-0163_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582776",
+                "title": "ORG-0018_IO360_20220614 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582719",
+                "title": "ORG-0063_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582802",
+                "title": "ORG-0091_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582828",
+                "title": "ORG-0133_L2_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582765",
+                "title": "ORG-0148_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582699",
+                "title": "ORG-0012_BC360_20210915 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582725",
+                "title": "ORG-0081_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582762",
+                "title": "ORG-0143_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582742",
+                "title": "ORG-0111_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582739",
+                "title": "ORG-0105_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582782",
+                "title": "ORG-0047_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582825",
+                "title": "ORG-0128_R_IO360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582788",
+                "title": "ORG-0054_IO360_20220609 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582805",
+                "title": "ORG-0095_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582808",
+                "title": "ORG-0100_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582722",
+                "title": "ORG-0068_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582774",
+                "title": "ORG-0016_IO360_20220609 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582705",
+                "title": "ORG-0027_L_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582728",
+                "title": "ORG-0091_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582754",
+                "title": "ORG-0133_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582771",
+                "title": "ORG-0163_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582702",
+                "title": "ORG-0018_BC360_20210915 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582785",
+                "title": "ORG-0049_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582791",
+                "title": "ORG-0059_L_IO360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582768",
+                "title": "ORG-0152_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582748",
+                "title": "ORG-0121_R4_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582811",
+                "title": "ORG-0103_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582751",
+                "title": "ORG-0128_R_BC360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582837",
+                "title": "ORG-0146_R1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582834",
+                "title": "ORG-0139_L1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582708",
+                "title": "ORG-0047_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582800",
+                "title": "ORG-0087_IO360_20220609 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582831",
+                "title": "ORG-0136_L1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582783",
+                "title": "ORG-0047_R3_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582794",
+                "title": "ORG-0064_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582777",
+                "title": "ORG-0021_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582820",
+                "title": "ORG-0119_L4_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582814",
+                "title": "ORG-0109_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582731",
+                "title": "ORG-0095_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582717",
+                "title": "ORG-0059_L_BC360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582803",
+                "title": "ORG-0092_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582780",
+                "title": "ORG-0042_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582700",
+                "title": "ORG-0016_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582760",
+                "title": "ORG-0139_L1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582829",
+                "title": "ORG-0134_R1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582711",
+                "title": "ORG-0049_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582817",
+                "title": "ORG-0112_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582714",
+                "title": "ORG-0054_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582737",
+                "title": "ORG-0103_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582797",
+                "title": "ORG-0070_IO360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582823",
+                "title": "ORG-0123_R1_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582726",
+                "title": "ORG-0087_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582809",
+                "title": "ORG-0101_L2_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582757",
+                "title": "ORG-0136_L1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582806",
+                "title": "ORG-0097_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582723",
+                "title": "ORG-0070_BC360_20210921 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582720",
+                "title": "ORG-0064_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582703",
+                "title": "ORG-0021_BC360_20210915 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582734",
+                "title": "ORG-0100_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582746",
+                "title": "ORG-0119_L4_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582843",
+                "title": "ORG-0154_L3_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582832",
+                "title": "ORG-0136_R2_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582740",
+                "title": "ORG-0109_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582838",
+                "title": "ORG-0147_R4_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582755",
+                "title": "ORG-0134_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582706",
+                "title": "ORG-0042_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582789",
+                "title": "ORG-0055_R_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582743",
+                "title": "ORG-0112_BC360_20210921 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582826",
+                "title": "ORG-0130_R1_IO360_20220614 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582840",
+                "title": "ORG-0150_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582835",
+                "title": "ORG-0141_R4_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582786",
+                "title": "ORG-0050_L_IO360_20220614 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582763",
+                "title": "ORG-0146_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582732",
+                "title": "ORG-0097_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582749",
+                "title": "ORG-0123_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582709",
+                "title": "ORG-0047_R3_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582818",
+                "title": "ORG-0115_L2_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582769",
+                "title": "ORG-0154_L3_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582729",
+                "title": "ORG-0092_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582735",
+                "title": "ORG-0101_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582772",
+                "title": "ORG-0011_IO360_20220609 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582815",
+                "title": "ORG-0110_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582752",
+                "title": "ORG-0130_R1_BC360_20220614 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582766",
+                "title": "ORG-0150_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582792",
+                "title": "ORG-0062_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582712",
+                "title": "ORG-0050_L_BC360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582812",
+                "title": "ORG-0104_L2_IO360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582775",
+                "title": "ORG-0017_IO360_20211019 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582798",
+                "title": "ORG-0073_IO360_20220329 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582715",
+                "title": "ORG-0055_R_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582795",
+                "title": "ORG-0067_IO360_20211019 histologically normal breast tissue"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 148,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE324nnn/GSE324677/",
+        "geo2r": "yes",
+        "bioproject": "PRJNA1436541"
+    },
+    "200324675": {
+        "uid": "200324675",
+        "accession": "GSE324675",
+        "gds": "",
+        "title": "Parity-conditioned Hedgehog/VDR-linked NanoString profiling of histologically normal human breast tissue (BC360)",
+        "summary": "Histologically normal human breast FFPE specimens were profiled by NanoString nCounter to study parity-conditioned basal/progenitor, Hedgehog, and vitamin D receptor-associated biology in normal breast tissue. This workbook contains the Breast Cancer 360 (BC360) arm of the study and is paired with a companion workbook for the other NanoString panel. Each of the 74 analyzed specimens contributes one GEO sample to this platform-specific workbook and one GEO sample to the companion panel workbook.",
+        "gpl": "33436",
+        "gse": "324675",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/03/17",
+        "suppfile": "CSV, RCC, TSV, XLSX",
+        "samples": [
+            {
+                "accession": "GSM9582710",
+                "title": "ORG-0048_BC360_20220614 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582747",
+                "title": "ORG-0120_L_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582730",
+                "title": "ORG-0093_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582767",
+                "title": "ORG-0151_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582750",
+                "title": "ORG-0125_L_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582733",
+                "title": "ORG-0098_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582770",
+                "title": "ORG-0159_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582753",
+                "title": "ORG-0131_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582707",
+                "title": "ORG-0046_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582727",
+                "title": "ORG-0090_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582756",
+                "title": "ORG-0135_L_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582719",
+                "title": "ORG-0063_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582739",
+                "title": "ORG-0105_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582759",
+                "title": "ORG-0138_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582713",
+                "title": "ORG-0051_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582716",
+                "title": "ORG-0058_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582736",
+                "title": "ORG-0102_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582765",
+                "title": "ORG-0148_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582699",
+                "title": "ORG-0012_BC360_20210915 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582748",
+                "title": "ORG-0121_R4_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582768",
+                "title": "ORG-0152_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582722",
+                "title": "ORG-0068_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582742",
+                "title": "ORG-0111_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582702",
+                "title": "ORG-0018_BC360_20210915 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582762",
+                "title": "ORG-0143_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582705",
+                "title": "ORG-0027_L_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582745",
+                "title": "ORG-0118_L1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582725",
+                "title": "ORG-0081_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582711",
+                "title": "ORG-0049_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582771",
+                "title": "ORG-0163_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582728",
+                "title": "ORG-0091_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582751",
+                "title": "ORG-0128_R_BC360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582714",
+                "title": "ORG-0054_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582731",
+                "title": "ORG-0095_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582720",
+                "title": "ORG-0064_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582754",
+                "title": "ORG-0133_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582708",
+                "title": "ORG-0047_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582700",
+                "title": "ORG-0016_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582734",
+                "title": "ORG-0100_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582737",
+                "title": "ORG-0103_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582740",
+                "title": "ORG-0109_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582757",
+                "title": "ORG-0136_L1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582743",
+                "title": "ORG-0112_BC360_20210921 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582749",
+                "title": "ORG-0123_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582723",
+                "title": "ORG-0070_BC360_20210921 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582760",
+                "title": "ORG-0139_L1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582717",
+                "title": "ORG-0059_L_BC360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582709",
+                "title": "ORG-0047_R3_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582746",
+                "title": "ORG-0119_L4_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582729",
+                "title": "ORG-0092_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582726",
+                "title": "ORG-0087_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582703",
+                "title": "ORG-0021_BC360_20210915 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582763",
+                "title": "ORG-0146_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582755",
+                "title": "ORG-0134_R1_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582769",
+                "title": "ORG-0154_L3_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582706",
+                "title": "ORG-0042_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582758",
+                "title": "ORG-0136_R2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582766",
+                "title": "ORG-0150_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582738",
+                "title": "ORG-0104_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582752",
+                "title": "ORG-0130_R1_BC360_20220614 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582732",
+                "title": "ORG-0097_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582735",
+                "title": "ORG-0101_L2_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582704",
+                "title": "ORG-0022_BC360_20210921 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582712",
+                "title": "ORG-0050_L_BC360_20220608 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582701",
+                "title": "ORG-0017_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582715",
+                "title": "ORG-0055_R_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582721",
+                "title": "ORG-0067_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582761",
+                "title": "ORG-0141_R4_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582724",
+                "title": "ORG-0073_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582718",
+                "title": "ORG-0062_BC360_20211015 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582764",
+                "title": "ORG-0147_R4_BC360_20230117 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582698",
+                "title": "ORG-0011_BC360_20210915 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582741",
+                "title": "ORG-0110_BC360_20210917 histologically normal breast tissue"
+            },
+            {
+                "accession": "GSM9582744",
+                "title": "ORG-0115_L2_BC360_20230117 histologically normal breast tissue"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 74,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE324nnn/GSE324675/",
+        "geo2r": "yes",
+        "bioproject": "PRJNA1436549"
+    },
+    "200320321": {
+        "uid": "200320321",
+        "accession": "GSE320321",
+        "gds": "",
+        "title": "Baseline NanoString IO360/BC360 expression in longitudinal midlife benign breast biopsies (ARLI pace cohort)",
+        "summary": "Baseline lobule-enriched FFPE RNA from benign breast biopsies of women aged 45\u201355 was profiled using NanoString nCounter PanCancer IO 360 and Breast Cancer 360 panels. Sample identifiers were anonymized (ARLI###) for public release; the original internal block codes are retained only in a private key held by the authors. Gene expression was related to the subsequent pace of age-related lobular involution across the menopausal transition.",
+        "gpl": "33436;27956",
+        "gse": "320321",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/02/28",
+        "suppfile": "RCC, TSV, TXT, XLSX",
+        "samples": [
+            {
+                "accession": "GSM9540567",
+                "title": "ARLI074 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540613",
+                "title": "ARLI008 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540530",
+                "title": "ARLI039 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540550",
+                "title": "ARLI040 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540633",
+                "title": "ARLI049 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540593",
+                "title": "ARLI036 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540510",
+                "title": "ARLI070 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540630",
+                "title": "ARLI035 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540547",
+                "title": "ARLI002 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540636",
+                "title": "ARLI058 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540507",
+                "title": "ARLI057 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540553",
+                "title": "ARLI062 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540590",
+                "title": "ARLI072 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540527",
+                "title": "ARLI052 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540610",
+                "title": "ARLI032 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540573",
+                "title": "ARLI076 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540656",
+                "title": "ARLI028 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540616",
+                "title": "ARLI027 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540570",
+                "title": "ARLI015 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540653",
+                "title": "ARLI023 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540539",
+                "title": "ARLI045 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540622",
+                "title": "ARLI079 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540559",
+                "title": "ARLI047 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540596",
+                "title": "ARLI067 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540642",
+                "title": "ARLI026 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540576",
+                "title": "ARLI044 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540659",
+                "title": "ARLI071 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540513",
+                "title": "ARLI009 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540602",
+                "title": "ARLI011 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540556",
+                "title": "ARLI012 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540639",
+                "title": "ARLI077 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540519",
+                "title": "ARLI029 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540599",
+                "title": "ARLI024 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540516",
+                "title": "ARLI069 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540619",
+                "title": "ARLI053 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540536",
+                "title": "ARLI042 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540665",
+                "title": "ARLI050 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540662",
+                "title": "ARLI016 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540582",
+                "title": "ARLI037 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540533",
+                "title": "ARLI046 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540579",
+                "title": "ARLI021 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540512",
+                "title": "ARLI009 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540558",
+                "title": "ARLI047 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540641",
+                "title": "ARLI061 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540595",
+                "title": "ARLI054 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540555",
+                "title": "ARLI031 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540638",
+                "title": "ARLI077 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540658",
+                "title": "ARLI071 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540575",
+                "title": "ARLI063 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540538",
+                "title": "ARLI045 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540535",
+                "title": "ARLI059 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540618",
+                "title": "ARLI053 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540621",
+                "title": "ARLI030 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540661",
+                "title": "ARLI003 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540552",
+                "title": "ARLI062 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540635",
+                "title": "ARLI064 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540578",
+                "title": "ARLI021 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540615",
+                "title": "ARLI033 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540532",
+                "title": "ARLI046 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540587",
+                "title": "ARLI051 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540604",
+                "title": "ARLI038 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540541",
+                "title": "ARLI034 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540667",
+                "title": "ARLI056 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540584",
+                "title": "ARLI022 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540515",
+                "title": "ARLI043 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540598",
+                "title": "ARLI024 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540664",
+                "title": "ARLI050 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540581",
+                "title": "ARLI081 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540521",
+                "title": "ARLI075 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540650",
+                "title": "ARLI041 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540624",
+                "title": "ARLI018 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540601",
+                "title": "ARLI014 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540561",
+                "title": "ARLI048 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540647",
+                "title": "ARLI065 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540564",
+                "title": "ARLI080 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540518",
+                "title": "ARLI029 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540544",
+                "title": "ARLI020 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540627",
+                "title": "ARLI001 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540607",
+                "title": "ARLI017 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540644",
+                "title": "ARLI073 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540603",
+                "title": "ARLI011 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540540",
+                "title": "ARLI034 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540623",
+                "title": "ARLI079 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540620",
+                "title": "ARLI030 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540600",
+                "title": "ARLI014 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540520",
+                "title": "ARLI075 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540583",
+                "title": "ARLI037 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540524",
+                "title": "ARLI078 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540557",
+                "title": "ARLI012 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540646",
+                "title": "ARLI065 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540626",
+                "title": "ARLI001 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540632",
+                "title": "ARLI049 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540517",
+                "title": "ARLI069 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540537",
+                "title": "ARLI042 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540666",
+                "title": "ARLI056 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540629",
+                "title": "ARLI025 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540640",
+                "title": "ARLI061 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540529",
+                "title": "ARLI055 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540543",
+                "title": "ARLI066 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540580",
+                "title": "ARLI081 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540526",
+                "title": "ARLI052 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540663",
+                "title": "ARLI016 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540549",
+                "title": "ARLI010 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540586",
+                "title": "ARLI051 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540563",
+                "title": "ARLI019 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540523",
+                "title": "ARLI006 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540606",
+                "title": "ARLI017 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540546",
+                "title": "ARLI002 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540560",
+                "title": "ARLI048 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540643",
+                "title": "ARLI026 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540649",
+                "title": "ARLI007 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540509",
+                "title": "ARLI013 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540612",
+                "title": "ARLI008 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540572",
+                "title": "ARLI076 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540655",
+                "title": "ARLI068 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540609",
+                "title": "ARLI005 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540568",
+                "title": "ARLI060 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540651",
+                "title": "ARLI041 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540648",
+                "title": "ARLI007 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540652",
+                "title": "ARLI023 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540592",
+                "title": "ARLI036 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540506",
+                "title": "ARLI057 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540566",
+                "title": "ARLI074 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540645",
+                "title": "ARLI073 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540585",
+                "title": "ARLI022 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540545",
+                "title": "ARLI020 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540542",
+                "title": "ARLI066 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540548",
+                "title": "ARLI010 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540565",
+                "title": "ARLI080 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540522",
+                "title": "ARLI006 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540631",
+                "title": "ARLI035 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540569",
+                "title": "ARLI060 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540562",
+                "title": "ARLI019 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540589",
+                "title": "ARLI004 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540525",
+                "title": "ARLI078 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540574",
+                "title": "ARLI063 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540588",
+                "title": "ARLI004 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540628",
+                "title": "ARLI025 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540625",
+                "title": "ARLI018 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540605",
+                "title": "ARLI038 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540611",
+                "title": "ARLI032 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540597",
+                "title": "ARLI067 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540571",
+                "title": "ARLI015 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540577",
+                "title": "ARLI044 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540660",
+                "title": "ARLI003 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540511",
+                "title": "ARLI070 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540657",
+                "title": "ARLI028 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540594",
+                "title": "ARLI054 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540608",
+                "title": "ARLI005 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540591",
+                "title": "ARLI072 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540514",
+                "title": "ARLI043 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540554",
+                "title": "ARLI031 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540617",
+                "title": "ARLI027 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540551",
+                "title": "ARLI040 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540654",
+                "title": "ARLI068 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540531",
+                "title": "ARLI039 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540614",
+                "title": "ARLI033 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540528",
+                "title": "ARLI055 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540508",
+                "title": "ARLI013 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540637",
+                "title": "ARLI058 baseline benign breast biopsy (IO360)"
+            },
+            {
+                "accession": "GSM9540634",
+                "title": "ARLI064 baseline benign breast biopsy (BC360)"
+            },
+            {
+                "accession": "GSM9540534",
+                "title": "ARLI059 baseline benign breast biopsy (BC360)"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 162,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE320nnn/GSE320321/",
+        "geo2r": "no",
+        "bioproject": "PRJNA1427583"
+    },
+    "200267169": {
+        "uid": "200267169",
+        "accession": "GSE267169",
+        "gds": "",
+        "title": "CSF1R inhibition plus chemotherapy induces systemic anti-tumor immune responses in triple negative breast cancer and sensitizes tumors to anti-PD-1 therapy by relieving resident memory T cell dysfunction\u00a0[nanostring]",
+        "summary": "Triple-negative breast cancer (TNBC) is a heterogeneous and aggressive disease where limited therapeutic options are available. A significant correlation exists between presence of intratumoral macrophages, tumor progression, and poor outcomes in TNBC. Preclinical in vivo studies revealed that inhibition of myelomonocytic colony stimulating factor 1 (CSF1) or its receptor (CSF1R), plus cytotoxic therapy decreases primary tumor growth kinetics and pulmonary metastases by CD8+ T cell-dependent mechanisms. To evaluate safety and tolerability of this immune-based therapeutic strategy, we conducted a phase Ib/II clinical trial evaluating Pexidartinib (PLX3397), a small molecule CSF1R inhibitor plus Eribulin chemotherapy in patients with heavily pretreated metastatic TNBC. Correlate analyses from baseline revealed increased leukocyte activation biomarkers, increased presence of CD8+ and CD4+ T central memory cells, and increased PD-1 expression on CD4+ T cells in patients experiencing a partial response or stable disease, together providing evidence of enhanced anti-tumor immunity. We hypothesized that addition of either PD-1 and PD-L1-blockade following CSF1R inhibition and chemotherapy would lead to a further enhanced anti-tumor T cell response. To test this, we evaluated tumor-bearing MMTV-PyMT transgenic mice comparing addition of PD-1- or PD-L1-blockade to Pexidartinib/Paclitaxel therapy. This revealed tumor regression in ~60% of transgenic mice with combined PD-1, but not PD-L1-blockade. Analysis of mammary tumors from mice treated with the PD-1 combination revealed activation and expansion of short-lived effector and memory T cells, and unique clonally-expanded T cells not observed with the PD-L1-blockade combination. These clinical and preclinical findings together provide rationale for addition of CSF1/CSF1R inhibitors to chemotherapy and PD-1-blocakde to further improve outcomes for patients with BC.\u00a0\u00a0",
+        "gpl": "28689",
+        "gse": "267169",
+        "taxon": "Mus musculus",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/02/23",
+        "suppfile": "RCC, TXT",
+        "samples": [
+            {
+                "accession": "GSM8261761",
+                "title": "S8 PLX+PTX+aPD-1.NR"
+            },
+            {
+                "accession": "GSM8261764",
+                "title": "S11 PLX+PTX+aPD-L1"
+            },
+            {
+                "accession": "GSM8261756",
+                "title": "S3 PLX+PTX"
+            },
+            {
+                "accession": "GSM8261759",
+                "title": "S6 PLX+PTX+aPD-1.R"
+            },
+            {
+                "accession": "GSM8261762",
+                "title": "S9 PLX+PTX+aPD-1.NR"
+            },
+            {
+                "accession": "GSM8261765",
+                "title": "S12 PLX+PTX+aPD-L1"
+            },
+            {
+                "accession": "GSM8261754",
+                "title": "S1 PTX"
+            },
+            {
+                "accession": "GSM8261763",
+                "title": "S10 PLX+PTX+aPD-1.NR"
+            },
+            {
+                "accession": "GSM8261760",
+                "title": "S7 PLX+PTX+aPD-1.R"
+            },
+            {
+                "accession": "GSM8261757",
+                "title": "S4 PLX+PTX"
+            },
+            {
+                "accession": "GSM8261755",
+                "title": "S2 PTX"
+            },
+            {
+                "accession": "GSM8261758",
+                "title": "S5 PLX+PTX+aPD-1.R"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 12,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE267nnn/GSE267169/",
+        "geo2r": "yes",
+        "bioproject": "PRJNA1109989"
+    },
+    "200316199": {
+        "uid": "200316199",
+        "accession": "GSE316199",
+        "gds": "",
+        "title": "NanoString expression profiling of histologically normal breast lobules from NHBW and NHWW donors (BC360)",
+        "summary": "This SuperSeries is composed of the SubSeries listed below.",
+        "gpl": "27956;33436",
+        "gse": "316199",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/02/02",
+        "suppfile": "RCC, TSV",
+        "samples": [
+            {
+                "accession": "GSM9447268",
+                "title": "ORG-0090 normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447288",
+                "title": "ORG-0100 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447285",
+                "title": "ORG-0064 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447291",
+                "title": "ORG-0159 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447265",
+                "title": "ORG-0130_R1 normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447271",
+                "title": "ORG-0059_L normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447297",
+                "title": "ORG-0128_R normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447257",
+                "title": "ORG-0111 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447294",
+                "title": "ORG-0059_L normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447254",
+                "title": "ORG-0163 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447296",
+                "title": "ORG-0062 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447256",
+                "title": "ORG-0097 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447293",
+                "title": "ORG-0016 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447273",
+                "title": "ORG-0062 normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447270",
+                "title": "ORG-0016 normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447259",
+                "title": "ORG-0146_R1 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447279",
+                "title": "ORG-0095 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447282",
+                "title": "ORG-0093 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447262",
+                "title": "ORG-0147_R4 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447258",
+                "title": "ORG-0093 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447278",
+                "title": "ORG-0163 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447261",
+                "title": "ORG-0064 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447255",
+                "title": "ORG-0095 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447286",
+                "title": "ORG-0147_R4 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447267",
+                "title": "ORG-0159 normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447281",
+                "title": "ORG-0111 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447260",
+                "title": "ORG-0051 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447287",
+                "title": "ORG-0018 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447264",
+                "title": "ORG-0100 normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447284",
+                "title": "ORG-0051 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447263",
+                "title": "ORG-0018 normal breast lobule RNA (non-Hispanic Black); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447290",
+                "title": "ORG-0103 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447266",
+                "title": "ORG-0103 normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447283",
+                "title": "ORG-0146_R1 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447295",
+                "title": "ORG-0022 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447280",
+                "title": "ORG-0097 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447292",
+                "title": "ORG-0090 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447269",
+                "title": "ORG-0128_R normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            },
+            {
+                "accession": "GSM9447289",
+                "title": "ORG-0130_R1 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447272",
+                "title": "ORG-0022 normal breast lobule RNA (non-Hispanic White); PanCancer IO 360"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 40,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE316nnn/GSE316199/",
+        "geo2r": "yes",
+        "bioproject": "PRJNA1401788"
+    },
+    "200316197": {
+        "uid": "200316197",
+        "accession": "GSE316197",
+        "gds": "",
+        "title": "NanoString Breast Cancer 360 expression profiling of histologically normal breast lobules from NHBW and NHWW donors (BC360)",
+        "summary": "Histologically normal breast lobules were obtained from non-Hispanic Black women (NHBW) and non-Hispanic White women (NHWW) (n=10 per group) matched by age, BMI, and parity. RNA extracted from FFPE sections was profiled using the NanoString Breast Cancer 360 CodeSet to characterize transcriptional programs associated with group differences in benign breast epithelium.",
+        "gpl": "33436",
+        "gse": "316197",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2026/02/02",
+        "suppfile": "RCC",
+        "samples": [
+            {
+                "accession": "GSM9447280",
+                "title": "ORG-0097 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447286",
+                "title": "ORG-0147_R4 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447297",
+                "title": "ORG-0128_R normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447283",
+                "title": "ORG-0146_R1 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447289",
+                "title": "ORG-0130_R1 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447285",
+                "title": "ORG-0064 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447282",
+                "title": "ORG-0093 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447294",
+                "title": "ORG-0059_L normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447291",
+                "title": "ORG-0159 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447288",
+                "title": "ORG-0100 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447296",
+                "title": "ORG-0062 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447290",
+                "title": "ORG-0103 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447287",
+                "title": "ORG-0018 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447293",
+                "title": "ORG-0016 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447279",
+                "title": "ORG-0095 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447295",
+                "title": "ORG-0022 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447292",
+                "title": "ORG-0090 normal breast lobule RNA (non-Hispanic White); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447284",
+                "title": "ORG-0051 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447281",
+                "title": "ORG-0111 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            },
+            {
+                "accession": "GSM9447278",
+                "title": "ORG-0163 normal breast lobule RNA (non-Hispanic Black); Breast Cancer 360"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 20,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE316nnn/GSE316197/",
+        "geo2r": "yes",
+        "bioproject": "PRJNA1401796"
+    },
+    "200305009": {
+        "uid": "200305009",
+        "accession": "GSE305009",
+        "gds": "",
+        "title": "ZSTK3744, a Novel Aryl Hydrocarbon Receptor Agonist, Overcomes Chemotherapy Resistance in Triple-Negative Breast Cancer [microarray]",
+        "summary": "Triple-negative breast cancer (TNBC) is an aggressive subtype of breast cancer characterized by a poor prognosis owing to the lack of therapeutic targets, including hormone receptors and HER2. Systemic chemotherapy remains the primary treatment option; however, its efficacy is frequently limited by chemotherapy resistance, a substantial challenge in clinical management. In the present study, we aimed to develop a novel anticancer drug that overcomes chemotherapy resistance in TNBC. First, chemotherapy-resistant MDA-MB-468 cells derived from TNBC were developed via long-term exposure to adriamycin or paclitaxel. Compared with wild-type cells, these resistant cells exhibited reduced sensitivity to paclitaxel, adriamycin, and eribulin in the viability assays. Various compounds were screened for their cell growth-inhibitory activity against these resistant cells to identify novel therapeutic agents; ZSTK3744 was a promising candidate and showed significant anti-tumor activity in vitro and in vivo. Mechanistically, ZSTK3744 upregulated CYP1A1, CYP1B1, and TIPARP expression in MDA-MB-468 cells but exhibited no cell growth-inhibitory activity in aryl hydrocarbon receptor (AhR) knockout cells, indicating that ZSTK3744 act as an AhR agonist. Notably, ZSTK3744 demonstrated superior tumor inhibition and lower pulmonary toxicity in ex vivo and in vivo models than other AhR agonists. These results suggest that ZSTK3744 combines robust cell growth-inhibitory activity with a favorable safety profile. In conclusion, ZSTK3744 is a promising candidate for overcoming chemotherapy resistance in TNBC, addressing the urgent need for more effective treatment options for this aggressive cancer subtype. This study represents the first demonstration of the anti-tumor activity of an AhR agonist on chemotherapy-resistant TNBC.",
+        "gpl": "23159",
+        "gse": "305009",
+        "taxon": "Homo sapiens",
+        "entrytype": "GSE",
+        "gdstype": "Expression profiling by array",
+        "ptechtype": "",
+        "valtype": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "pdat": "2025/12/31",
+        "suppfile": "CEL, CHP",
+        "samples": [
+            {
+                "accession": "GSM9160893",
+                "title": "ZSTK3744-treated"
+            },
+            {
+                "accession": "GSM9160892",
+                "title": "DMSO-treated"
+            }
+        ],
+        "relations": [],
+        "extrelations": [],
+        "n_samples": 2,
+        "seriestitle": "",
+        "platformtitle": "",
+        "platformtaxa": "",
+        "samplestaxa": "",
+        "pubmedids": [],
+        "projects": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE305nnn/GSE305009/",
+        "geo2r": "yes",
+        "bioproject": "PRJNA1303693"
+    }
+}

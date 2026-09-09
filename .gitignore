@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+src/staticfiles/
+
+# Datos crudos pesados (se quedan en disco, no se suben a GitHub)
+downloads/
+src/app/downloads/
+
+# Configuración local con secretos (API keys)
+.vscode/
+
+# Caché de minted (LaTeX)
+tex/_minted-work/

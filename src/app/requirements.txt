@@ -1,0 +1,9 @@
+GEOparse==2.0.4
+pandas==3.0.2
+requests==2.33.1
+rich>=13.0
+Django==6.0.5
+uvicorn
+ipython
+psycopg2-binary
+openpyxl>=3.1.0

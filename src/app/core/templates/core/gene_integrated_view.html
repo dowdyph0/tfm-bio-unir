@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gene Integrated View</title>
+  <link rel="stylesheet" href="{% static 'core/gene_integrated_view.css' %}" />
+</head>
+<body>
+  <main class="page">
+    <section class="head">
+      <h1>Gene Integrated View</h1>
+      <a href="/admin/">Open Admin</a>
+    </section>
+
+    <section class="panel">
+      <form method="get" action="{% url 'gene-integrated-view' %}">
+        <div class="filters">
+          <div class="field">
+            <label for="symbol">Gene symbol (HGNC recommended)</label>
+            <input type="text" name="symbol" id="symbol" value="{{ symbol }}" />
+          </div>
+
+          <div class="field">
+            <label for="project_id">Project</label>
+            <select name="project_id" id="project_id">
+              <option value="">All</option>
+              {% for project_id in project_options %}
+                <option value="{{ project_id }}" {% if selected_project == project_id %}selected{% endif %}>{{ project_id }}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="variant_classification">Variant</label>
+            <select name="variant_classification" id="variant_classification">
+              <option value="">All</option>
+              {% for variant in variant_options %}
+                <option value="{{ variant }}" {% if selected_variant == variant %}selected{% endif %}>{{ variant }}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="min_tpm">Min TPM</label>
+            <input type="number" step="any" name="min_tpm" id="min_tpm" value="{{ min_tpm }}" />
+          </div>
+
+          <div class="field">
+            <label for="min_fpkm_uq">Min FPKM-UQ</label>
+            <input type="number" step="any" name="min_fpkm_uq" id="min_fpkm_uq" value="{{ min_fpkm_uq }}" />
+          </div>
+
+          <div class="field">
+            <label for="limit">Row limit</label>
+            <select name="limit" id="limit">
+              <option value="100" {% if row_limit == '100' %}selected{% endif %}>100</option>
+              <option value="1000" {% if row_limit == '1000' %}selected{% endif %}>1000</option>
+              <option value="all" {% if row_limit == 'all' %}selected{% endif %}>All</option>
+            </select>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="primary" type="submit">Buscar</button>
+        </div>
+      </form>
+    </section>
+
+    {% if gene or total_mutations or total_expressions %}
+      <section class="panel">
+        {% if gene %}
+          <h2>Gene: {{ gene.symbol }} ({{ gene.hgnc_id }})</h2>
+          <p class="summary">
+            <b>Name:</b> {{ gene.name }}<br>
+            <b>Entrez:</b> {{ gene.entrez_id }}<br>
+            <b>Ensembl:</b> {{ gene.ensembl_gene_id }}<br>
+            <b>Aliases:</b> {{ gene.alias_symbol }}<br>
+          </p>
+        {% else %}
+          <h2>Gene symbol: {{ symbol }} (without HGNC link)</h2>
+        {% endif %}
+
+        <p class="summary links">
+          <b>External links:</b>
+          {% if gene_links.hgnc %}<a href="{{ gene_links.hgnc }}" target="_blank" rel="noopener">HGNC</a>{% endif %}
+          {% if gene_links.ensembl %}<a href="{{ gene_links.ensembl }}" target="_blank" rel="noopener">Ensembl</a>{% endif %}
+          {% if gene_links.ncbi %}<a href="{{ gene_links.ncbi }}" target="_blank" rel="noopener">NCBI Gene</a>{% endif %}
+          {% if gene_links.symbol_search %}<a href="{{ gene_links.symbol_search }}" target="_blank" rel="noopener">GeneCards</a>{% endif %}
+          <br>
+          <b>Total Mutations:</b> {{ total_mutations }}<br>
+          <b>Total Expression Rows:</b> {{ total_expressions }}<br>
+          <b>Raw files available:</b> {{ available_raw_count }}<br>
+          <b>Raw files missing:</b> {{ missing_raw_paths|length }}
+        </p>
+
+        <form method="get" action="{% url 'gene-integrated-view' %}">
+          <input type="hidden" name="symbol" value="{{ symbol }}" />
+          <input type="hidden" name="project_id" value="{{ selected_project }}" />
+          <input type="hidden" name="variant_classification" value="{{ selected_variant }}" />
+          <input type="hidden" name="min_tpm" value="{{ min_tpm }}" />
+          <input type="hidden" name="min_fpkm_uq" value="{{ min_fpkm_uq }}" />
+          <input type="hidden" name="limit" value="{{ row_limit }}" />
+          <div class="actions">
+            <button type="submit" name="export" value="mut_csv">Descargar mutaciones CSV</button>
+            <button type="submit" name="export" value="expr_csv">Descargar expresion CSV</button>
+            <button type="submit" name="export" value="mut_xlsx">Descargar mutaciones XLSX</button>
+            <button type="submit" name="export" value="expr_xlsx">Descargar expresion XLSX</button>
+            <button type="submit" name="export" value="raw_zip">Descargar raw ZIP</button>
+            <button type="submit" name="export" value="all_zip">Descargar bundle ZIP</button>
+          </div>
+        </form>
+
+        {% if missing_raw_paths %}
+          <h3>Raw files missing in container</h3>
+          <ul>
+            {% for path in missing_raw_paths|slice:":20" %}
+              <li>{{ path }}</li>
+            {% endfor %}
+          </ul>
+          {% if missing_raw_paths|length > 20 %}
+            <p class="warning">Showing first 20 missing paths.</p>
+          {% endif %}
+        {% endif %}
+      </section>
+
+      <section class="panel">
+        <h3>Mutations (TCGA)</h3>
+        {% if mutations %}
+          <div class="table-wrap">
+            <table>
+              <tr><th>File</th><th>Sample</th><th>Type</th><th>Chr</th><th>Start</th><th>Links</th></tr>
+              {% for m in mutations %}
+                <tr>
+                  <td>
+                    {{ m.tcga_file.file_name }}
+                    {% if m.gdc_file_url %}<br><a href="{{ m.gdc_file_url }}" target="_blank" rel="noopener">GDC file</a>{% endif %}
+                  </td>
+                  <td>{{ m.tumor_sample_barcode }}</td>
+                  <td>{{ m.variant_classification }}</td>
+                  <td>{{ m.chromosome }}</td>
+                  <td>{{ m.start_position }}</td>
+                  <td>{% if m.ncbi_gene_url %}<a href="{{ m.ncbi_gene_url }}" target="_blank" rel="noopener">NCBI Gene</a>{% else %}-{% endif %}</td>
+                </tr>
+              {% endfor %}
+            </table>
+          </div>
+        {% else %}
+          <p class="muted">No mutations found.</p>
+        {% endif %}
+      </section>
+
+      <section class="panel">
+        <h3>Expression (TCGA)</h3>
+        {% if expressions %}
+          <div class="table-wrap">
+            <table>
+              <tr><th>File</th><th>Gene ID</th><th>TPM</th><th>FPKM-UQ</th><th>Links</th></tr>
+              {% for e in expressions %}
+                <tr>
+                  <td>
+                    {{ e.tcga_file.file_name }}
+                    {% if e.gdc_file_url %}<br><a href="{{ e.gdc_file_url }}" target="_blank" rel="noopener">GDC file</a>{% endif %}
+                  </td>
+                  <td>{{ e.gene_id }}</td>
+                  <td>{{ e.tpm_unstranded }}</td>
+                  <td>{{ e.fpkm_uq_unstranded }}</td>
+                  <td>{% if e.ensembl_gene_url %}<a href="{{ e.ensembl_gene_url }}" target="_blank" rel="noopener">Ensembl</a>{% else %}-{% endif %}</td>
+                </tr>
+              {% endfor %}
+            </table>
+          </div>
+        {% else %}
+          <p class="muted">No expression records found.</p>
+        {% endif %}
+      </section>
+    {% elif symbol %}
+      <section class="panel">
+        <p>No gene found for symbol <b>{{ symbol }}</b>.</p>
+      </section>
+    {% endif %}
+  </main>
+</body>
+</html>
